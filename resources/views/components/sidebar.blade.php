@@ -14,7 +14,7 @@
                     Pengguna
                 </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link" href="{{ route('kehadiran.getKehadiran') }}">
                     <span data-feather="file" class="align-text-bottom"></span>
                     Kehadiran
@@ -25,7 +25,7 @@
                     <span data-feather="shopping-cart" class="align-text-bottom"></span>
                     Jabatan
                 </a>
-            </li>
+            </li> --}}
 
 
         </ul>
