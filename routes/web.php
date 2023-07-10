@@ -16,7 +16,7 @@ use App\Http\Controllers\Auth\AuthController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('components.layout');
 });
 
 Route::get('/admin', function () {
