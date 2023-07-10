@@ -11,8 +11,8 @@ class UserController extends Controller
     public function getUser(User $user)
     {
         $dataUser = $user->get();
-        // $dataUser = $user->where('id', auth()->user()->id)->get();
-        //return view('admin.user.viewUser', compact('dataUser')); //web
+        $dataUser = $user->where('id', auth()->user()->id)->get();
+        return view('admin.user.viewUser', compact('dataUser')); //web
         return response()->json($dataUser); //api
     }
     public function tambah()
